@@ -16,7 +16,7 @@ void rotateArrayCyclical(vector<int> &x, int k) {
 
     reverseArray(x, 0, n - 1);
     reverseArray(x, 0, k - 1);
-    reverseArray(x, k, n);
+    reverseArray(x, k, n - 1);
 }
 
 // Brute Force
